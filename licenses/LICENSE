@@ -1,0 +1,37 @@
+# MINT License Suite
+
+This repository is the authoritative source for the MINT License Suite. It is not a work licensed under the MINT License; it is the license text repository itself.
+
+## Contents
+
+The license texts are located in:
+
+- `en-US/` — English (authoritative language version)
+- `zh-CN/` — Simplified Chinese
+
+Additional languages are added as they become available.
+
+## The Suite
+
+| License | File |
+|---|---|
+| MINT (base) | `LICENSE-MINT` |
+| MINT CODE module | `LICENSE-MINT-CODE` |
+| MINT SOFTWARE module | `LICENSE-MINT-SOFTWARE` |
+| MINT PUBLIC module | `LICENSE-MINT-PUBLIC` |
+| MINT DESIGN module | `LICENSE-MINT-DESIGN` |
+| MINT DATA module | `LICENSE-MINT-DATA` |
+
+The base license and the modules are designed to be combined. See the repository `README.md` for the combination rules.
+
+## This Repository's Own License
+
+The license texts in this repository are released under CC0 1.0. See `README.md` for details.
+
+## GitHub Detection
+
+GitHub's license detector does not recognize the MINT License Suite. The repository may be labeled "Other". This is expected. The authoritative license texts are the files listed above.
+
+## Contact
+
+See the repository `README.md` for contribution and contact information.

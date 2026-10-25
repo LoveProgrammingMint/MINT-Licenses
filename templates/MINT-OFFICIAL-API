@@ -1,0 +1,18 @@
+# MINT-OFFICIAL-API
+# 本文件指定本作品的官方 API。根据 MINT CODE 模块第 5 条，仅本文件列出的接口构成官方 API。
+# 本文件须在分发时于所述位置可达，并符合随附 schema。
+
+version = "1.0"
+
+# 本文件自身的位置。三者择一：
+#   repo-path  = "./api/MINT-OFFICIAL-API"              （本仓库内路径）
+#   repo       = "git+https://example.com/org/api.git"  （其他仓库）
+#   url        = "https://example.com/api/mint-official-api.toml" （稳定 URL）
+location = "repo-path:./api/MINT-OFFICIAL-API"
+
+[[interface]]
+name = "example-endpoint"
+path = "api/v1/example"
+description = "Example interface description."
+
+# 按需增加 [[interface]] 条目。

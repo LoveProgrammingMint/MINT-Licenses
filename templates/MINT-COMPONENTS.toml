@@ -1,0 +1,34 @@
+# MINT-COMPONENTS.toml
+#
+# 本文件声明项目中各组件所适用的 MINT 模块。
+# 根据 MINT 许可证 README 中的规则 2，以 MINT + SOFTWARE 分发产品的项目
+# 应提供本文件，使组件划分具备客观依据。
+#
+# 本文件须符合随附 schema：schemas/mint-components.schema.json
+#
+# 每个 [[component]] 条目描述一个路径及其适用的 MINT 模块。
+# license 字段使用 SPDX 标识符或 MINT 模块短标识（见 README）。
+#
+# 示例（取消注释后按实际项目填写）：
+#
+# [[component]]
+# path = "engine/"
+# license = ["LicenseRef-MINT-1.0", "LicenseRef-MINT-CODE-1.0"]
+#
+# [[component]]
+# path = "product/glue/"
+# license = ["LicenseRef-MINT-1.0", "LicenseRef-MINT-CODE-1.0", "LicenseRef-MINT-SOFTWARE-1.0"]
+#
+# [[component]]
+# path = "product/ui/"
+# license = ["LicenseRef-MINT-1.0", "LicenseRef-MINT-DESIGN-1.0", "LicenseRef-MINT-SOFTWARE-1.0"]
+#
+# [[component]]
+# path = "product/proprietary/"
+# license = ["LicenseRef-MINT-1.0", "LicenseRef-MINT-SOFTWARE-1.0"]
+#
+# [[component]]
+# path = "api/"
+# license = ["LicenseRef-MINT-1.0", "LicenseRef-MINT-PUBLIC-1.0"]
+#
+# 完整字段定义见 schemas/mint-components.schema.json。
