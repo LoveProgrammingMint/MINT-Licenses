@@ -1,0 +1,28 @@
+MINT SOFTWARE MODULE
+Version 1.0
+
+This module is incorporated by reference into the MINT License. It applies only when the Work is declared to be licensed under "MINT + SOFTWARE". Capitalized terms have the meanings given in the MINT License.
+
+1. Scope
+
+This module applies to the Distribution of a software product as a whole. It does not apply to the internal use of the Work within an organization.
+
+2. Notice on Distribution
+
+When You Distribute a product containing the Work, You must make available to recipients, in at least one of the following locations:
+(a) an "About" screen or equivalent interactive interface;
+(b) accompanying documentation;
+(c) a license file within the distribution package;
+
+a notice that identifies the MINT modules applied and includes the disclaimer of warranty set out in the MINT License.
+
+3. Parallel Application
+
+This module operates in parallel with any other MINT module applicable to the same product. It does not absorb, replace, or reduce:
+(a) the file-level reciprocity obligation of the CODE module;
+(b) the notice obligation of the DESIGN module;
+(c) the share-alike obligation of the DATA module.
+
+4. No Infection
+
+A proprietary module of the product that is not derived from the Work is not subject to this License solely by virtue of being Distributed together with the Work.

@@ -1,0 +1,41 @@
+MINT PUBLIC MODULE
+Version 1.0
+
+This module is incorporated by reference into the MINT License. It applies only when the Work is declared to be licensed under "MINT + PUBLIC", or under a combination that includes PUBLIC. Capitalized terms have the meanings given in the MINT License.
+
+1. Scope
+
+This module applies to the behavior of accessing the Work through an Official API.
+
+2. Official API
+
+"Official API" means the set of interfaces designated by the copyright holder under Section 5 of the CODE module.
+
+If the Work is not licensed under the CODE module, "Official API" means the set of interfaces explicitly identified as official in the official documentation of the Work.
+
+A wrapper, SDK, or interface not designated or identified as such does not constitute an Official API.
+
+3. Supersession
+
+When You access the Work solely through an Official API, and You do not copy, modify, or Distribute the Source Code of the Work, the reciprocity obligation of the CODE module does not apply to that access.
+
+4. Lapse of Supersession
+
+The supersession in Section 3 lapses if:
+(a) You copy, modify, or Distribute the Source Code of the Work; or
+(b) You modify the Official API wrapper and embed or copy the Source Code of the Work into the modified wrapper.
+
+Upon lapse, the CODE module resumes full effect with respect to the relevant behavior.
+
+5. Invalid Designation
+
+If the designation of the Official API does not satisfy the conditions in Section 5 of the CODE module, including where the stated location is unreachable, the schema is not met, or the listed interfaces do not correspond to the Work, then:
+(a) no Official API exists for the purposes of this module;
+(b) Section 3 does not apply;
+(c) the CODE module continues to apply in full.
+
+The copyright holder bears the risk of an invalid designation. A recipient is not required to verify the designation beyond a reasonable attempt to access the stated location.
+
+6. Base Obligations Preserved
+
+This module does not affect the obligations set out in the MINT License, including attribution, patent, and disclaimer.

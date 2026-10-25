@@ -1,0 +1,25 @@
+MINT DESIGN MODULE
+Version 1.0
+
+This module is incorporated by reference into the MINT License. It applies only when the Work is declared to be licensed under "MINT + DESIGN". Capitalized terms have the meanings given in the MINT License.
+
+1. Scope
+
+This module applies to visual design elements of the Work, including icons, layouts, themes, and visual specifications. It does not apply to Source Code or to the functional logic of an interface.
+
+2. Notice on Integration
+
+When You integrate design elements of the Work into an interactive product and Distribute that product, You must make available to recipients, in at least one of the following locations:
+(a) an "About" screen or equivalent interactive interface;
+(b) accompanying documentation;
+(c) a license file within the distribution package;
+
+a notice that identifies the design elements used, the Licensor, and the MINT modules applied.
+
+3. Trademark Exclusion
+
+This module does not grant any right to use the trade names, trademarks, service marks, or product names of the Licensor. Brand elements of the Work, including logos and product names, are expressly excluded from the copyright grant under this module unless the Licensor states otherwise in writing.
+
+4. Parallel Application
+
+This module operates in parallel with any other MINT module applicable to the same product. It does not absorb or replace the notice obligation of the SOFTWARE module or the reciprocity obligation of the CODE module.
