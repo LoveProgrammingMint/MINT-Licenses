@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mint-license.org/schemas/mint-official-api.schema.json",
+  "title": "MINT-OFFICIAL-API",
+  "type": "object",
+  "required": ["version", "location", "interface"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+$"
+    },
+    "location": {
+      "type": "string",
+      "pattern": "^(repo-path|repo|url):.+"
+    },
+    "interface": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "path": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mint-license.org/schemas/mint-components.schema.json",
+  "title": "MINT-COMPONENTS",
+  "type": "object",
+  "required": ["component"],
+  "properties": {
+    "component": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["path", "license"],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Relative path from the repository root. Trailing slash indicates a directory."
+          },
+          "license": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^LicenseRef-MINT(-[A-Z]+)?-1\\.[0-9]+$"
+            },
+            "description": "SPDX identifiers for the MINT modules applied to this component. Base MINT is required; modules are additive."
+          },
+          "note": {
+            "type": "string",
+            "description": "Optional human-readable note. Non-normative."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
